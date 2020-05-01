@@ -1,0 +1,21 @@
+{
+    "name": "mallka/yii2-layer",
+    "description": "local layer，ajax loading, pop window",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","layer","layui"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mallka.com",
+            "email": "chen@yiirise.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mallka\\layer\\": "./src"
+        }
+    }
+}
